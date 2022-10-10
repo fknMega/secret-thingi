@@ -1,11 +1,11 @@
 config = {
   # F12 -> Console -> Shoutbox.userId
-  'user_id': 1013238,
+  'user_id': 0,
   # F12 -> Console -> Shoutbox.userToken
   'ws_token': '',
 
   # Your username
-  'username': 'username',
+  'username': 'your_username',
 
 
 
@@ -31,7 +31,7 @@ config = {
 
     # messages to send
     "messages": [
-      "Hello!",
+      ":wtf:", ':kiss:'
     ],
   },
 
@@ -42,9 +42,35 @@ config = {
 
     # delay in seconds
     "delay": 1,
+
+    # all hellos to respond to
+    "hellos": [
+      "hello", "hi", "whatsapp", "bonjour", "gm", "morning", 'salut', 'yo', 'hola', ':heyguys:'
+    ],
+
+    # Responses to send
+    "responses": [
+      "Hi {ping}!", "yoo {ping}"
+    ]
   },
+
+
+
+  # Will be added in next update ! ! !
+
+  # Staff detection - Self Destruct
+  "staff_detection": {
+    # Enable staff detection
+    "enabled": True,
+
+    # Time to self destuct for in seconds
+    "time": 120,
+
+    # All staff members to detect
+    "staff": [ 'KSZ', 'Quessts' ],
 
 
 
 }
 
+}
