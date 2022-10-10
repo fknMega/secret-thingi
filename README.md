@@ -15,13 +15,11 @@ Don't forget to join the (unofficial) cracked.io discord server ([click here](ht
 - Auto Marketplace Advertising
 - Staff detection (self-destruct)
 
-![sb-preview](https://media.discordapp.net/attachments/1028954895325351966/1028992082343379004/unknown.png)
 
 ### how to use?
 
 put your `user-id`, `ws-token`, and `username` in the config.py,
 and run `python main.py`
 
-
-
+![sb-preview](https://media.discordapp.net/attachments/1028954895325351966/1028992082343379004/unknown.png)
 ### Alert: Scripting is not allowed on cracked.io, use at your own risk
