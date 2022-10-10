@@ -6,9 +6,9 @@ Don't forget to join the (unofficial) cracked.io discord server ([click here](ht
 
 ## Features:
 
-- Auto Kiss
-- Auto Hello
-- Auto Message Farming
+- Auto Kiss -- Replies back to `:kiss:` automatically
+- Auto Hello -- Replies to people saying hello
+- Auto Message Farming -- Sends messages every x seconds
 
 ## To-do list:
 
