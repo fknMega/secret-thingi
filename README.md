@@ -12,10 +12,10 @@ Don't forget to join the (unofficial) cracked.io discord server ([click here](ht
 - Auto Kiss -- Replies back to `:kiss:` automatically
 - Auto Hello -- Replies to people saying hello
 - Auto Message Farming -- Sends messages every x seconds
+- Auto Marketplace Advertising -- sends message in marketplace every x seconds
 
 ## To-do list:
 
-- Auto Marketplace Advertising
 - Staff detection (self-destruct)
 
 
