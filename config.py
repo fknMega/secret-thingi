@@ -24,7 +24,7 @@ config = {
   # Auto message every x seconds
   "auto_message": {
     # Enable auto message
-    "enabled": True,
+    "enabled": False,
 
     # time between messages in seconds
     "time": 60,
@@ -55,6 +55,19 @@ config = {
   },
 
 
+  # Auto Matket Messages
+  "auto_market": {
+    # Enable auto market messages
+    "enabled": False,
+
+    # delay btw messages in seconds
+    "delay": 2000,
+
+    # messages to send
+    "messages": [
+      "I'm selling banana!",
+    ],
+  },
 
   # Will be added in next update ! ! !
 

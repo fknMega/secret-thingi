@@ -86,6 +86,11 @@ def onopen(ws):
       # Start a background thread for auto Message
        threading.Thread(target=autoMessage, args=(ws,)).start()
 
+    # Auto Market
+    if config.config["auto_market"]["enabled"]:
+        # Start a background thread for auto Market
+        threading.Thread(target=utils.market.Main, args=(ws,)).start()
+
 
 wsapp = websocket.WebSocketApp(
     f'wss://yelling.cc/socket.io/?token={config.config["ws_token"]}&EIO=3&transport=websocket',
