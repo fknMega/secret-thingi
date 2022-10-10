@@ -5,7 +5,7 @@ Scripting is only for pussies!
 
 Made with :sparkling_heart:	by [fknMega](https://cracked.io/fknMega) & [IndigoSon](https://cracked.io/IndigoSon)
 
-Don't forget to join the (unofficial) cracked.io discord server ([click here](https://discord.gg/Ec4QECeTx6))
+https://t.me/fknMegaMarket
 
 ## Features:
 
