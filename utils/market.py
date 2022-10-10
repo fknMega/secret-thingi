@@ -27,5 +27,4 @@ def Loop(ws):
         time.sleep(config.config["auto_market"]["time"])
 
         # Send a random message
-        send_message(ws, random.choice(
-            config.config["auto_market"]["messages"], 'market'))
+        send_message(ws, random.choice(config.config["auto_market"]["messages"], 'market'))
