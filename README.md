@@ -19,10 +19,14 @@ Don't forget to join the (unofficial) cracked.io discord server ([click here](ht
 - Staff detection (self-destruct)
 
 
-### how to use?
+## how to use?
 
 put your `user-id`, `ws-token`, and `username` in the config.py,
-and run `python main.py`
+then run cmd in the folder,
+
+run the command: `pip install websocket-client`
+
+and then run `python main.py` to start
 
 ![sb-preview](https://media.discordapp.net/attachments/1028954895325351966/1028992082343379004/unknown.png)
 
