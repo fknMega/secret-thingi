@@ -5,7 +5,7 @@ config = {
   'ws_token': '',
 
   # Your username
-  'username': 'your_username',
+  'username': '',
 
 
 
@@ -45,12 +45,12 @@ config = {
 
     # all hellos to respond to
     "hellos": [
-      "hello", "hi", "whatsapp", "bonjour", "gm", "morning", 'salut', 'yo', 'hola', ':heyguys:'
+      "hello", "hi", "whatsapp", "bonjour", "gm", "morning", 'salut', 'yo', 'hola', ':heyguys:', 'hey', 'howdy'
     ],
 
     # Responses to send
     "responses": [
-      "Hi {ping}!", "yoo {ping}"
+      "salut {ping}", "yoo {ping}"
     ]
   },
 
@@ -68,6 +68,23 @@ config = {
       "I'm selling banana!",
     ],
   },
+
+
+  # Line reader settings
+  "line_reader": {
+    # Enable line reader
+    "enabled": True,
+
+    "command": "/troll",
+    
+
+    # Text file to read from
+    "file": "lines.txt",
+
+    # Delay between lines in seconds
+    "delay": 15
+  },
+
 
   # Will be added in next update ! ! !
 
