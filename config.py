@@ -69,6 +69,8 @@ config = {
     ],
   },
 
+<<<<<<< HEAD
+
 
   # Line reader settings
   "line_reader": {
@@ -85,6 +87,8 @@ config = {
     "delay": 15
   },
 
+=======
+>>>>>>> f393034f729b5cbabc98957bde037f8621e44e04
 
   # Will be added in next update ! ! !
 
