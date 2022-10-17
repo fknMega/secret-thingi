@@ -12,28 +12,6 @@ import utils.utils
 import utils.autohello
 
 
-def send_webhook(author, message, image=None):
-    # Send a webhook to discord
-    
-    # send request to discord api to send a webhook
-
-    webhook = 'https://discord.com/api/webhooks/1029346758607785994/jI2JDPULRmSN9ljdLcEZX4x6H5JKyBAw3sYXU9azS3kn1cPuaa7cAr-fVlseSa7uhhGM'
-
-    # Create the payload
-    payload = {
-        'username': author,
-        'content': message,
-        'avatar_url': image,
-    }
-
-    # Add the image if there is one
-   
-
-
-    # Send the request
-    requests.post(webhook, json=payload)
-    
-    
 
 def on_message(ws: websocket.WebSocket, message):
     # Check if room is main
@@ -66,8 +44,6 @@ def on_message(ws: websocket.WebSocket, message):
                           utils.utils.send_message(ws, line)
                           time.sleep(config.config["line_reader"]["delay"])
 
-    # send the message to discord
-    send_webhook(author, msg, user_avatar)
     
     if author == config.config['username']:
         return

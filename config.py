@@ -5,7 +5,7 @@ config = {
   'ws_token': '',
 
   # Your username
-  'username': 'fknMega',
+  'username': 'KSZ',
 
 
 
@@ -61,7 +61,7 @@ config = {
     "enabled": True,
 
     # delay btw messages in seconds
-    "delay": 30,
+    "delay": 2000,
 
     # messages to send
     "messages": [
