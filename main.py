@@ -133,7 +133,8 @@ def onopen(ws):
     # Auto Market
     if config.config["auto_market"]["enabled"]:
         # Start a background thread for auto Market
-        threading.Thread(target=utils.market.Main, args=(ws,)).start()
+        import utils.market
+        utils.market.Main(ws)
 
 
 wsapp = websocket.WebSocketApp(

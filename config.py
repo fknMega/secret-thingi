@@ -5,7 +5,7 @@ config = {
   'ws_token': '',
 
   # Your username
-  'username': '',
+  'username': 'fknMega',
 
 
 
@@ -27,7 +27,7 @@ config = {
     "enabled": False,
 
     # time between messages in seconds
-    "time": 60,
+    "time": 2000,
 
     # messages to send
     "messages": [
@@ -58,14 +58,14 @@ config = {
   # Auto Matket Messages
   "auto_market": {
     # Enable auto market messages
-    "enabled": False,
+    "enabled": True,
 
     # delay btw messages in seconds
-    "delay": 2000,
+    "delay": 30,
 
     # messages to send
     "messages": [
-      "I'm selling banana!",
+      "Advertise your products here !!! https://t.me/fknMegaMarket",
     ],
   },
 
@@ -84,7 +84,7 @@ config = {
     "file": "lines.txt",
 
     # Delay between lines in seconds
-    "delay": 15
+    "delay": 3
   },
 
 
