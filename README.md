@@ -13,6 +13,7 @@ https://t.me/fknMegaMarket
 - Auto Hello -- Replies to people saying hello
 - Auto Message Farming -- Sends messages every x seconds
 - Auto Marketplace Advertising -- sends message in marketplace every x seconds
+- Text lines sender - Read lines of text file automatically and send them
 
 ## To-do list:
 
